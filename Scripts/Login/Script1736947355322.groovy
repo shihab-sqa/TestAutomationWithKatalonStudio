@@ -31,3 +31,8 @@ WebUI.click(findTestObject('Object Repository/Login/Page_Test Login  Practice Te
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Logged In Successfully  Practice Test _c87e4f/a_Log out'))
 
+WebUI.click(findTestObject('Object Repository/Page_Logged In Successfully  Practice Test _c87e4f/h1_Logged In Successfully'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Logged In Successfully  Practice Test _c87e4f/h1_Logged In Successfully'), 
+    0)
+
